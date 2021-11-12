@@ -25,14 +25,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+    .map makes a new array with the first parameter being the element at the current index - a use case would be if you want to make a new array that is slightly different than another array
+    .reduce reduces the array to a single value with the first parameter being the total and the second being the current element in the array - a use case could be needing to add or multiply an entire array
+    .filter makes a new array out of the elements that pass the conditional inside the function - a use case would be filtering to see a year of a soccer game 
 
 2. Explain the difference between a callback and a higher order function.
+    A callback function is a function that is passed into another function
+    A higher order function is a function that takes in another function
 
 3. Explain what a closure is.
+    Closure is the function inside another function 
 
 4. Describe the four principles of the 'this' keyword.
+    window binding - 'this' will return the window object, global object or undefined depending on how you are running the javascript
+    implicit binding - When a function is invoked 'this' is the object to the left of the dot
+    explicit binding - When we explicitly assign 'this' in functions like call, apply or bind
+    new binding - When a function is invoked as a constructor with the 'new' keyword the new object being created is the 'this' 
+
 
 5. Why do we need super() in an extended class?
+    we need a super so that the computer knows that the extended class is the parent and so we can use its constructor
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
